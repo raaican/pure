@@ -85,7 +85,7 @@ h1 {
     left: 115px;
     height: 200px;
     width: 400px;
-    background-color: gray;
+    background-color: var(--surface0);
 }
 
 .project-main-div {
@@ -96,7 +96,7 @@ h1 {
     display: block;
     height: 100px;
     width: 50%;
-    background-color: var(--mauve);
+    background-color: var(--overlay0);
 }
 
 .project-profile-div {
@@ -128,7 +128,7 @@ h1 {
     left: 115px;
     height: 200px;
     width: 400px;
-    background-color: gray;
+    background-color: var(--surface0);
 }
 
 .project-main-div2 {
@@ -139,7 +139,7 @@ h1 {
     display: block;
     height: 100px;
     width: 50%;
-    background-color: var(--mauve);
+    background-color: var(--overlay0);
 }
 
 .project-profile-div2 {
