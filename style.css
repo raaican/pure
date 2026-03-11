@@ -1,0 +1,165 @@
+@layer base, utils, components;
+
+@import "./node_modules/@webtui/css/dist/base.css";
+
+/* utilities */
+@import "./node_modules/@webtui/css/dist/utils/box.css";
+
+/* components */
+@import "./node_modules/@webtui/css/dist/components/typography.css";
+@import "./node_modules/@webtui/css/dist/components/button.css";
+@import "./node_modules/@webtui/css/dist/components/badge.css";
+@import "./node_modules/@webtui/css/dist/components/input.css";
+
+@import "./node_modules/@webtui/theme-catppuccin/dist/index.css";
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.btn {
+    font-weight: bold;
+}
+
+/*.nav {
+    height: 40px;
+    background: var(--sky);
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 10px;
+} */
+.nav {
+    position: fixed;
+    padding-top: 8px;
+    padding-left: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 40px;
+    border: 2px solid;
+    border-color: var(--surface2);
+    width: calc(100% - 10px);
+    background: #1F1E2F;
+    color: white;
+    z-index: 1000;
+}
+
+.nav-btn-left {
+    font-weight: 500;
+}
+
+.nav-btn-right {
+    font-weight: 780;
+    margin-right: 10px;
+    float: right;
+}
+
+.nav-btn-right-2 {
+    font-weight: 500;
+    margin-right: 10px;
+    float: right;
+}
+
+.main-div {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+}
+
+.div-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-main {
+    position: relative;
+    display: block;
+    top: 115px;
+    left: 115px;
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+}
+
+.project-main-div {
+    position: absolute;
+    top: 62%;
+    left: 140px;
+    transform: translate(-50%, -50%);
+    display: block;
+    height: 100px;
+    width: 50%;
+    background-color: var(--mauve);
+}
+
+.project-profile-div {
+    position: absolute;
+    top: 40px;
+    left: 279px;
+    /* background-color: black; */
+    height: 134px;
+    width: 60px;
+}
+
+.project-profile-img {
+    position: absolute;
+    width: 81px;
+}
+
+.project-main-btn {
+    position:absolute;
+    font-weight: 450;
+    top: 20%;
+    left: 10%;
+    width: 50%;
+}
+
+.project-main2 {
+    position: relative;
+    display: block;
+    top: 185px;
+    left: 115px;
+    height: 200px;
+    width: 400px;
+    background-color: gray;
+}
+
+.project-main-div2 {
+    position: absolute;
+    top: 62%;
+    left: 140px;
+    transform: translate(-50%, -50%);
+    display: block;
+    height: 100px;
+    width: 50%;
+    background-color: var(--mauve);
+}
+
+.project-profile-div2 {
+    position: absolute;
+    top: 40px;
+    left: 279px;
+    /* background-color: black; */
+    height: 134px;
+    width: 60px;
+}
+
+.project-profile-img2 {
+    position: absolute;
+    width: 81px;
+}
+
+.project-main-btn2 {
+    position:absolute;
+    font-weight: 450;
+    top: 20%;
+    left: 10%;
+    width: 50%;
+}
