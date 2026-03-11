@@ -2,5 +2,9 @@
   "dependencies": {
     "@webtui/css": "^0.1.6",
     "@webtui/theme-catppuccin": "^0.0.3"
+  },
+
+  "scripts": {
+      "build": "bun build public/style.css --outfile=public/style.bundle.css --minify"
   }
 }

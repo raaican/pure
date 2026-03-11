@@ -1,17 +1,17 @@
 @layer base, utils, components;
 
-@import "./node_modules/@webtui/css/dist/base.css";
+@import "../node_modules/@webtui/css/dist/base.css";
 
 /* utilities */
-@import "./node_modules/@webtui/css/dist/utils/box.css";
+@import "../node_modules/@webtui/css/dist/utils/box.css";
 
 /* components */
-@import "./node_modules/@webtui/css/dist/components/typography.css";
-@import "./node_modules/@webtui/css/dist/components/button.css";
-@import "./node_modules/@webtui/css/dist/components/badge.css";
-@import "./node_modules/@webtui/css/dist/components/input.css";
+@import "../node_modules/@webtui/css/dist/components/typography.css";
+@import "../node_modules/@webtui/css/dist/components/button.css";
+@import "../node_modules/@webtui/css/dist/components/badge.css";
+@import "../node_modules/@webtui/css/dist/components/input.css";
 
-@import "./node_modules/@webtui/theme-catppuccin/dist/index.css";
+@import "../node_modules/@webtui/theme-catppuccin/dist/index.css";
 
 .center-splash {
     position: absolute;
