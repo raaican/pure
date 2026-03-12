@@ -9,6 +9,12 @@
 ## Performance (with gzip via [NGINX](https://nginx.org/))
 <img width="554" height="544" alt="image" src="performance.png" />
 
+## Usage
+```sh
+$ bun run build
+```
+Simply host with anything or open [index.html](public/index.html) directly.
+
 ## License
 Copyright (c) 2026 raican
 
