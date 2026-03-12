@@ -10,6 +10,7 @@
 @import "../node_modules/@webtui/css/dist/components/button.css";
 @import "../node_modules/@webtui/css/dist/components/badge.css";
 @import "../node_modules/@webtui/css/dist/components/input.css";
+@import "../node_modules/@webtui/css/dist/components/switch.css";
 
 @import "../node_modules/@webtui/theme-catppuccin/dist/index.css";
 
@@ -44,13 +45,6 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
-/*.nav {
-    height: 40px;
-    background: var(--sky);
-    border: 2px solid;
-    border-radius: 8px;
-    margin: 10px;
-} */
 .nav {
     position: fixed;
     padding-top: 8px;
@@ -61,7 +55,7 @@ h1 {
     border: 2px solid;
     border-color: var(--surface2);
     width: calc(100% - 10px);
-    background: #1F1E2F;
+    background: var(--base);;
     color: white;
     z-index: 1000;
 }
@@ -93,6 +87,11 @@ h1 {
 .nav-btn-right-2:hover {
     cursor:pointer;
 } 
+
+#switch {
+    --switch-thumb-color: #4c4f69;
+    --switch-track-color: #6c6f85;
+}
 
 .main-div {
     position: absolute;
