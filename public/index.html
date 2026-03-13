@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" id="html" data-webtui-theme="catppuccin-mocha">
-    <script src="theme.js"></script>
+<script src="theme.js"></script>
+
 <head>
-    <meta charset="UTF-8">
-    <title>MAHIRU</title>
-    <link rel="stylesheet" href="style.bundle.css">
+  <meta charset="UTF-8">
+  <title>MAHIRU</title>
+  <link rel="stylesheet" href="style.bundle.css">
 </head>
+
 <body style="zoom: 150%;">
-    <div class="nav">
-        <nav>
-            <!-- <span class="nav-badge" is-="badge" is-="button" variant-="red">MAHIRU</span> -->
-            <a href="index.html">
-                <button id="nav-btn" class="nav-btn-left" size-="small" variant-="red">MAHIRU</button>
-            </a>
-            <a href="https://github.com/raaican/pure" target="_blank">
-                <button id="nav-btn" class="nav-btn-right" size-="small" variant-="peach">G</button>
-            </a>
-            <a href="projects/index.html">
-                <button id="nav-btn" class="nav-btn-right-2" size-="small" variant-="lavender">PROJECTS</button>
-            </a>
-            <input onclick="on_switch()" bar-="thin" class="nav-btn-right-2" id="switch" type="checkbox" is-="switch"/>
-        </nav>
-    </div>
-    <div class="center-splash">
-        <a href="socials/index.html">
-            <button id="main-btn" class="btn" variant-="sky">SOCIALS</button>
-        </a>
-    </div>
-    <script src="remember.js"></script>
+  <div class="nav">
+    <nav>
+      <!-- <span class="nav-badge" is-="badge" is-="button" variant-="red">MAHIRU</span> -->
+      <a href="index.html">
+        <button id="nav-btn" class="nav-btn-left" size-="small" variant-="red">MAHIRU</button>
+      </a>
+      <a href="https://github.com/raaican/pure" target="_blank">
+        <button id="nav-btn" class="nav-btn-right" size-="small" variant-="peach"> </button>
+      </a>
+      <a href="projects/index.html">
+        <button id="nav-btn" class="nav-btn-right-2" size-="small" variant-="lavender">PROJECTS</button>
+      </a>
+      <input onclick="on_switch()" bar-="thin" class="nav-btn-right-2" id="switch" type="checkbox" is-="switch" />
+      <div class="motd">
+        <p id="motd"></p>
+      </div>
+      <script src="motd.js"></script>
+    </nav>
+  </div>
+  <div class="center-splash">
+    <a href="socials/index.html">
+      <button id="main-btn" class="btn" variant-="sky">SOCIALS</button>
+    </a>
+  </div>
+  <div class="copyright">
+    <p style="font-size: 10px; padding: 1px;"> 2026 raican. Licensed under MIT.</p>
+  </div>
+  <script src="remember.js"></script>
 </body>
 
 </html>
