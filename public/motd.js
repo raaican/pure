@@ -9,10 +9,9 @@ var i = 1;
 function loopage() {
   setTimeout(function() {
     document.getElementById("motd").innerHTML = messages[getRandomInt(messages.length)];
-    console.log("yeeeee");
     i++;
     loopage()
-  }, 3000)
+  }, 10000)
 }
 
 loopage();
